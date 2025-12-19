@@ -1,16 +1,10 @@
 {
-  "name": "dypsi-proxy",
-  "private": true,
-  "version": "1.0.0",
-  "engines": { "node": ">=18" },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
